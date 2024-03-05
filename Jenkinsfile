@@ -11,14 +11,15 @@ pipeline {
 
       stage('Build') {
         steps {
-          buildabc 'PES2UG21CS601-1'
+          build 'PES2UG21CS601-1'
           sh 'g++ hello.cpp -o output'
         }
       }
 
       stage('Test') {
         steps {
-          sh './output'
+            abshedigheif
+            sh './output'
         }
       }
 
