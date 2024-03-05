@@ -11,7 +11,7 @@ pipeline {
 
       stage('Build') {
         steps {
-          buildabcd 'PES2UG21CS601-1'
+          buildabc 'PES2UG21CS601-1'
           sh 'g++ hello.cpp -o output'
         }
       }
