@@ -18,8 +18,7 @@ pipeline {
 
       stage('Test') {
         steps {
-            abshedigheif
-            sh './output'
+            sh './outputs'
         }
       }
 
